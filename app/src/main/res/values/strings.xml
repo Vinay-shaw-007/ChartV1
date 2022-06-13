@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Chart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="progress_bar">Progress Bar</string>
+    <string name="reload">Reload</string>
+    <string name="primary">Primary</string>
+    <string name="secondary">Secondary</string>
+    <string name="primary_value">Primary Value : %1$d</string>
+    <string name="secondary_value">Secondary Value : %1$d</string>
+    <string name="total_capacity">Total Capacity</string>
+    <string name="left">Left</string>
+    <string name="filled">Filled</string>
+    <string name="intern_name">Intern Name</string>
+    <string name="reset">Reset</string>
+    <string name="details">Details</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="stats_details">Stats Details</string>
+
+    <string-array name="Interns_name">
+        <item>Vinay</item>
+        <item>Rudrank</item>
+        <item>Hitesh</item>
+        <item>Meet</item>
+    </string-array>
+</resources>

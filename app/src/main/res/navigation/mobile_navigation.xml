@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pie">
+
+    <fragment
+        android:id="@+id/nav_pie"
+        android:name="com.example.chart.ui.home.PieChartFragment"
+        android:label="@string/pie_chart"
+        tools:layout="@layout/fragment_piechart" />
+
+    <fragment
+        android:id="@+id/nav_line"
+        android:name="com.example.chart.ui.gallery.LineChartFragment"
+        android:label="@string/line_chart"
+        tools:layout="@layout/fragment_linechart" />
+
+    <fragment
+        android:id="@+id/nav_bar"
+        android:name="com.example.chart.ui.slideshow.BarChartFragment"
+        android:label="@string/bar_chart"
+        tools:layout="@layout/fragment_barchart" />
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.example.chart.ui.stats.StatsFragment"
+        android:label="@string/progress_bar"
+        tools:layout="@layout/fragment_stats" >
+        <action
+            android:id="@+id/action_nav_progress_to_statsDetailFragment"
+            app:destination="@id/statsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statsDetailFragment"
+        android:name="com.example.chart.ui.statsDetails.StatsDetailFragment"
+        android:label="@string/stats_details"
+        tools:layout="@layout/fragment_stats_detail" />
+</navigation>
